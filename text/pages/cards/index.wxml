@@ -1,0 +1,9 @@
+<!--pages/cards/index.wxml-->
+<!-- view类似于网页中的div -->
+<view class="box">
+  <!-- text类似于span -->
+  <text>我是行内标签</text>
+</view>
+<image src="../../static/uploads/content_1.png"></image>
+<!-- 单标签必须要自闭和 -->
+<image src="../../static/uploads/detail_1.png" />

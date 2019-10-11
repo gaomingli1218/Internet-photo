@@ -1,0 +1,58 @@
+/**index.wxss**/
+page {
+  background-color: #F0F0F0;
+}
+
+swiper {
+  height: 320rpx;
+}
+
+swiper image {
+  width: 750rpx;
+  height: 320rpx;
+}
+
+.title {
+  line-height: 1;
+  color: #3C3C3C;
+  font-size: 28rpx;
+  font-weight: 700;
+  padding: 20rpx 30rpx;
+}
+
+.item {
+  margin-bottom: 20rpx;
+}
+
+.item image {
+  width: 750rpx;
+  height: 320rpx;
+}
+
+.item .info {
+  position: relative;
+  height: 180rpx;
+  padding: 16rpx 130rpx 16rpx 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.item .info .msg {
+  color: #3C3C3C;
+  font-size: 30rpx;
+}
+
+.item .info .extra {
+  position: absolute;
+  bottom: 20rpx;
+  color: #B4B4B4;
+  font-size: 22rpx;
+}
+
+.item .info .free {
+  position: absolute;
+  right: 30rpx;
+  top: 16rpx;
+  color: #FE6249;
+  font-size: 30rpx;
+}
